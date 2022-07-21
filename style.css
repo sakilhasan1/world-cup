@@ -4,6 +4,9 @@
       padding: 0;
   }
 
+
+  /* -----------header style start --------- */
+
   .container {
       display: flex;
       justify-content: space-between;
@@ -32,16 +35,24 @@
 
   .container-two {
       display: flex;
+      justify-content: space-between;
       gap: 50px;
       margin-top: 50px;
       margin-left: 50px;
+  }
+
+
+  .card img {
+      width: 100%;
   }
 
   .player-cards {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 10px;
+      width: 100%;
   }
+
 
   .card {
       width: 315px;
@@ -51,12 +62,16 @@
 
   .btn {
       color: white;
-      background-color: rgb(209, 171, 171);
+      background-color: black;
       height: 100px;
       width: 150px;
-      text-decoration: none;
       border-radius: 8px;
+      font-size: 20px;
 
+  }
+
+  .btn a {
+      text-decoration: none;
   }
 
   .card-text {
@@ -72,6 +87,8 @@
       margin-right: 10px;
   }
 
+  /*------------ main style end ------------ */
+  /*------------ footer style start ------------ */
   footer {
       background-color: black;
       width: 100%;
@@ -86,3 +103,22 @@
       padding: 50px;
 
   }
+
+  .size {
+      font-size: 20px;
+  }
+
+  .footer-link {
+      text-align: center;
+      gap: 20px;
+      margin-left: 20px;
+
+  }
+
+  .footer-link a {
+      padding: 10px;
+      text-decoration: none;
+      color: white;
+  }
+
+  /*------------ footer style end ------------ */
